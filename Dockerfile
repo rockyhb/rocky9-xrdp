@@ -17,6 +17,7 @@ RUN \
     ansible-collection-community-general.noarch \
     python3-pip \
     podman \
+    firefox \
     && \
   curl -L -o /tmp/vscode.rpm 'https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64' && \
   dnf -y localinstall /tmp/vscode.rpm  && \
